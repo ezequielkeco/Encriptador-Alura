@@ -1,0 +1,121 @@
+*{
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #1F1F21;
+  }
+
+  body {
+    margin: 0;
+  }
+
+main {
+    display: flex;
+}
+
+header {
+    display: flex;
+    margin: 50px 0 50px 0;
+}
+
+.logo {
+    width: 25%;
+}
+
+.section-1 {
+    margin-right: 30px;
+}
+
+.text-area {
+    border: none;
+    color: #CDCDCD;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+::placeholder { 
+    color: #CDCDCD;
+}
+
+p {
+    color: #CDCDCD;
+    text-align: center;
+}
+  
+.buttons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.btn-encriptar {
+    background-color: #CDCDCD;
+    border: none;
+    border-radius: 10px 0 10px 0;
+    color: #1F1F21;
+    font-size: 17px;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    margin-right: 20px;
+}
+
+.btn-desencriptar {
+    background-color: #CDCDCD;
+    border: none;
+    border-radius: 10px 0 10px 0;
+    color: #1F1F21;
+    font-size: 17px;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+}
+
+.btn-encriptar:hover {
+    color: #1F1F21;
+    background-color: #6AC3F2;
+    font-weight: bold;
+}
+
+.btn-desencriptar:hover {
+    color: #1F1F21;
+    background-color: #6AC3F2;
+    font-weight: bold;
+}
+
+.mensaje {
+    background-color: white;
+    background-image: url(/encriptado.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 10px;
+    color: #1F1F21;
+    padding: 15px;
+}
+
+.mensaje, .text-area:focus {
+    outline: none;
+}
+
+.section-2 {
+    text-align: center;
+}
+
+.btn-copiar {
+    background-color: #CDCDCD;
+    border: none;
+    border-radius: 10px 0 10px 0;
+    color: #1F1F21;
+    font-size: 17px;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.btn-copiar:hover {
+    color: #1F1F21;
+    background-color: #6AC3F2;
+    font-weight: bold;
+}
